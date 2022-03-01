@@ -9,6 +9,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet var fullSizeImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

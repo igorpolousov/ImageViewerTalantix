@@ -7,10 +7,11 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "ImageCell"
 
 class ImagesViewController: UICollectionViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

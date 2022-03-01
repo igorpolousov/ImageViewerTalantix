@@ -15,6 +15,7 @@
 		C207522527CE18A70060793C /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207522427CE18A70060793C /* ImagesViewController.swift */; };
 		C207522727CE18BC0060793C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207522627CE18BC0060793C /* DetailViewController.swift */; };
 		C207522B27CE19D30060793C /* API Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207522A27CE19D30060793C /* API Model.swift */; };
+		C207524227CE2AAD0060793C /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207524127CE2AAD0060793C /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C207522427CE18A70060793C /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 		C207522627CE18BC0060793C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C207522A27CE19D30060793C /* API Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Model.swift"; sourceTree = "<group>"; };
+		C207524127CE2AAD0060793C /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				C207522427CE18A70060793C /* ImagesViewController.swift */,
+				C207524127CE2AAD0060793C /* ImageCell.swift */,
 				C207522627CE18BC0060793C /* DetailViewController.swift */,
 			);
 			path = Controllers;
@@ -165,6 +168,7 @@
 				C207520D27CE12E40060793C /* AppDelegate.swift in Sources */,
 				C207520F27CE12E40060793C /* SceneDelegate.swift in Sources */,
 				C207522727CE18BC0060793C /* DetailViewController.swift in Sources */,
+				C207524227CE2AAD0060793C /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
