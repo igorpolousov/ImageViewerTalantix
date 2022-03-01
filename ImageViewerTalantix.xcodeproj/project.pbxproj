@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C207520D27CE12E40060793C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207520C27CE12E40060793C /* AppDelegate.swift */; };
 		C207520F27CE12E40060793C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207520E27CE12E40060793C /* SceneDelegate.swift */; };
-		C207521127CE12E40060793C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207521027CE12E40060793C /* ViewController.swift */; };
 		C207521427CE12E40060793C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C207521227CE12E40060793C /* Main.storyboard */; };
 		C207521627CE12E60060793C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C207521527CE12E60060793C /* Assets.xcassets */; };
 		C207521927CE12E60060793C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C207521727CE12E60060793C /* LaunchScreen.storyboard */; };
+		C207522527CE18A70060793C /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207522427CE18A70060793C /* ImagesViewController.swift */; };
+		C207522727CE18BC0060793C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207522627CE18BC0060793C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C207520927CE12E40060793C /* ImageViewerTalantix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewerTalantix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C207520C27CE12E40060793C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C207520E27CE12E40060793C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C207521027CE12E40060793C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C207521327CE12E40060793C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C207521527CE12E60060793C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C207521827CE12E60060793C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C207521A27CE12E60060793C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C207522427CE18A70060793C /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		C207522627CE18BC0060793C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				C207520C27CE12E40060793C /* AppDelegate.swift */,
 				C207520E27CE12E40060793C /* SceneDelegate.swift */,
-				C207521027CE12E40060793C /* ViewController.swift */,
+				C207522427CE18A70060793C /* ImagesViewController.swift */,
+				C207522627CE18BC0060793C /* DetailViewController.swift */,
 				C207521227CE12E40060793C /* Main.storyboard */,
 				C207521527CE12E60060793C /* Assets.xcassets */,
 				C207521727CE12E60060793C /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C207521127CE12E40060793C /* ViewController.swift in Sources */,
+				C207522527CE18A70060793C /* ImagesViewController.swift in Sources */,
 				C207520D27CE12E40060793C /* AppDelegate.swift in Sources */,
 				C207520F27CE12E40060793C /* SceneDelegate.swift in Sources */,
+				C207522727CE18BC0060793C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
